@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bgContainer {
+  height: 100%;
+  padding: 20vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 100%;
+  width: 70%;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: Roboto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profilePic {
+  height: 100px;
+  width: 100px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileName {
+  font-size: 26px;
+  padding-left: 15px;
+  color: #d4d2db;
+}
+
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.balText {
+  color: #585076;
+  font-size: 30px;
+}
+
+.amount {
+  font-size: 40px;
+  color: #fff;
+}
+.currency {
+  color: #585076;
+}
+.debitText {
+  font-size: 40px;
+  color: #c4c4c4;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+
+.choose {
+  font-size: 24px;
+  color: #585076;
+  padding-left: 15px;
+}
+
+.WithdrawAmountContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
